@@ -1,8 +1,3 @@
 function areYouPlayingBanjo(name) {
-  const caps = name.toUpperCase()
-  if ( caps.charAt(0) == 'R'){
-  return `${name} plays banjo`
-} else {
-  return `${name} does not play banjo`
-}
-}
+    return name.charAt(0).toUpperCase() == 'R' ? `${name} plays banjo` : `${name} does not play banjo`
+  }
