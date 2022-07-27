@@ -1,0 +1,1 @@
+const descendingOrder = (n) => parseInt((n+'').split('').sort().reverse().join(''))
